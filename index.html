@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Avengers Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Avengers Form</h2>
+        <form id="avengersForm">
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" name="userName" placeholder="Enter your name" required>
+
+            <label for="favoriteAvenger">Your Favorite Avenger:</label>
+            <select id="favoriteAvenger" name="favoriteAvenger">
+                <option value="ironMan">Iron Man</option>
+                <option value="captainAmerica">Captain America</option>
+                <option value="thor">Thor</option>
+                <option value="hulk">Hulk</option>
+                <option value="blackWidow">Black Widow</option>
+                <option value="hawkeye">Hawkeye</option>
+            </select>
+<br><br>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Provide your feedback"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
